@@ -65,7 +65,7 @@ function Func() {
               label="User Name"
               type="text"
               fullWidth
-              value="mnguyen"
+              placeholder="admin"
               onChange={(e) => setName(e.target.value)}
             />
             <TextField
@@ -73,7 +73,7 @@ function Func() {
               id="pwd"
               label="Password"
               type="password"
-              value="123456"
+              placeholder="admin"
               fullWidth
               onChange={(e) => setPwd(e.target.value)}
             />
