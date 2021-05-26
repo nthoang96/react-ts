@@ -4,6 +4,7 @@ import AppBar from "@material-ui/core/AppBar";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 import Wibu from "../../pages/Wibu";
+import Func from "../../pages/Func";
 
 const useStyles = makeStyles((theme: Theme) => ({
   root: {
@@ -39,6 +40,7 @@ export default function SimpleTabs() {
         </Tabs>
       </AppBar>
       {value === 0 && <Wibu />}
+      {value === 1 && <Func />}
     </div>
   );
 }
